@@ -1,0 +1,15 @@
+services:
+    app:
+        build: .
+        ports:
+            - "8080:80"
+        depends_on:
+            - redis
+        environment:
+            APP_ENV: prod
+            REDIS_URL: redis://redis:6379
+
+    redis:
+        image: redis:7-alpine
+        ports:
+            - "6379:6379"
