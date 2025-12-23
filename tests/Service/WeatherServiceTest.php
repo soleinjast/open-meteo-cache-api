@@ -47,8 +47,8 @@ class WeatherServiceTest extends TestCase
                     $this->assertArrayHasKey('hourly', $asArray);
                     $this->assertSame(['temperature_2m'], $asArray['hourly']);
 
-                    $this->assertArrayHasKey('forecast_hours', $asArray);
-                    $this->assertSame(1, $asArray['forecast_hours']);
+                    $this->assertArrayHasKey('forecast_days', $asArray);
+                    $this->assertSame(1, $asArray['forecast_days']);
                     return true;
                 })
             )

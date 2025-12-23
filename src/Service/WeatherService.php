@@ -51,7 +51,7 @@ readonly class WeatherService
             options: (new ForecastOptions())
                 ->setCurrent(['temperature_2m'])
                 ->setHourly(['temperature_2m'])
-                ->setForecastHours(1)
+                ->setForecastDays(1)
         );
     }
 }
