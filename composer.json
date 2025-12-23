@@ -4,7 +4,7 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "php": ">=8.2",
+        "php": ">=8.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/cache": "7.4.*",
@@ -67,7 +67,7 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^12.5",
+        "phpunit/phpunit": "^12.5.4",
         "symfony/browser-kit": "7.4.*",
         "symfony/css-selector": "7.4.*"
     }
