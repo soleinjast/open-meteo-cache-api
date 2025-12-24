@@ -42,20 +42,7 @@ cd open-meteo-cache-api
 composer install
 ```
 
-### 3. Configure Environment
-
-```bash
-cp .env .env.local
-```
-
-Edit `.env.local`:
-
-```env
-REDIS_URL=redis://localhost:6379
-OPEN_METEO_API_BASE_URL=https://api.open-meteo.com/v1
-```
-
-### 4. Start Redis
+### 3. Start Redis
 
 **Using Docker:**
 ```bash
@@ -72,7 +59,7 @@ brew services start redis
 sudo systemctl start redis-server
 ```
 
-### 5. Run the Application
+### 4. Run the Application
 
 **Using Symfony CLI:**
 ```bash
