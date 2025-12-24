@@ -262,7 +262,7 @@ php bin/phpunit --coverage-text
 PHPUnit 12.5.4 by Sebastian Bergmann and contributors.
 .............................................            47 / 47 (100%)
 
-OK (47 tests, 138 assertions)
+OK (30 tests, 109 assertions)
 ```
 **Overall Line Coverage: 98.69% ✨**
 
