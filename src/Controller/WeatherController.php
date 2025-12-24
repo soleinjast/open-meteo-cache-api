@@ -17,7 +17,7 @@ class WeatherController extends AbstractController
     {
         try {
             return $this->success($weatherService->getBerlinForecast());
-        } catch (\Throwable $e) {
+        } catch (\Throwable) {
             return $this->error(
                 message: ApiMessage::INTERNAL_ERROR,
                 status: 500
